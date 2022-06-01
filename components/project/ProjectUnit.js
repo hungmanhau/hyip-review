@@ -1,12 +1,11 @@
 import ButtonNormal from "../button/ButtonNormal";
 import ButtonRainbowBorder from "../button/ButtonRainbowBorder";
-import Image from "next/image";
 
 const ProjectUnit = ({ projectName, href, reff }) => {
   return (
     <div className="project-unit row-padding third margin-bottom">
       <div className="card-4">
-        <Image
+        <img
           src={"/static/images/" + projectName + "-screenshot-1.jpg"}
           alt={projectName + " screenshot"}
           className="width-100 project-image"
