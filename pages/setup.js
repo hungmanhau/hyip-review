@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const setup = () => {
+const Setup = () => {
   const [image1, setImage1] = useState();
   const [image2, setImage2] = useState();
   const [image3, setImage3] = useState();
@@ -172,4 +172,4 @@ const setup = () => {
   );
 };
 
-export default setup;
+export default Setup;

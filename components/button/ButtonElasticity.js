@@ -2,7 +2,7 @@ const ButtonElasticity = ({ href, content }) => {
   return (
     <div className="container" onClick={() => (window.location.href = href)}>
       <button className="button-9 grow" role="button">
-        Go to {content}'s register site
+        Go to {content}&apos;s register site
       </button>
     </div>
   );

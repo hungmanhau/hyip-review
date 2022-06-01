@@ -31,7 +31,6 @@ export default function Home() {
       <div className="content">
         <ProjectList />
       </div>
-
       <FooterInformation /> */}
     </>
   );
