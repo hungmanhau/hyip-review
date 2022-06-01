@@ -1,12 +1,11 @@
 import Link from "next/link";
-
 function Header() {
   return (
     <div className="top">
       <div className="row large light-grey">
         <div className="topbar">
-          <div className="col">
-            <Link href="/" className="button block align-left">
+          <div className="col margin">
+            <Link href="/" style={{ textDecoration: "none" }}>
               Hyip-Review.com
             </Link>
           </div>

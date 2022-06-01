@@ -11,6 +11,7 @@ const ProjectUnit = ({ projectName, href, reff }) => {
           alt={projectName + " screenshot"}
           className="width-100 project-image"
           onClick={() => (window.location.href = href)}
+          layout="fill"
         />
         <div className="flex-row-space padding-16">
           <ButtonNormal href={`./${projectName}`} content={projectName} />

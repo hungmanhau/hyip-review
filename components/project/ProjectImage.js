@@ -1,11 +1,10 @@
 import RainbowBorderButton from "../button/ButtonRainbowBorder";
-import Image from "next/image";
 const ProjectImage = ({ projectName, href, position, show, index }) => {
   return projectName !== undefined ? (
     <div
       className={`display-container ${show ? "display-block" : "display-none"}`}
     >
-      <Image
+      <img
         src={`/static/images/${projectName}-screenshot-${index}.jpg`}
         alt={`${projectName} Screenshot ${index}`}
         className="width-100"
@@ -18,7 +17,7 @@ const ProjectImage = ({ projectName, href, position, show, index }) => {
     <div
       className={`display-container ${show ? "display-block" : "display-none"}`}
     >
-      <Image
+      <img
         src={`/static/images/d-screenshot-${index}.jpg`}
         alt={`d Screenshot ${index}`}
         className="width-100"
