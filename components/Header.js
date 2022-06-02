@@ -1,10 +1,14 @@
+import Link from "next/link";
+
 function Header() {
   return (
     <div className="title">
       <div className="title-content">
-        <ul class="nav">
+        <ul className="nav">
           <li>
-            <a href="/">Hyip-review.com </a>
+            <Link className="nav" href={"/"}>
+              <a>Hyip-review.com</a>
+            </Link>
           </li>
         </ul>
       </div>
