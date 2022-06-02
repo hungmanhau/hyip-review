@@ -4,9 +4,7 @@ async function handler(req, res) {
   if (req.method === "GET") {
     let client;
     try {
-      client = await MongoClient.connect(
-        "mongodb+srv://hungmanh:Noilalam9698@hyip-review.4zgmr.mongodb.net/projects?retryWrites=true&w=majority"
-      );
+      client = await MongoClient.connect(process.env.MONGO);
     } catch (error) {
       res.status(500).json({ message: "Could not connect to database" });
     }
