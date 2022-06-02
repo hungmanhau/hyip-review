@@ -342,7 +342,7 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.01em 8px;
+  padding: 1em 0.4em 0px 8px;
   flex-wrap: wrap;
 }
 .card-4,
@@ -886,4 +886,43 @@ hr {
   color: white;
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
+}
+
+ul.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 48px;
+  line-height: 48px;
+}
+ul.nav li {
+  border-left: 1px solid #189b80; /* you can change the border color matching to your background color */
+  float: left;
+  background: #333; /* you can change the backgorund color here. */
+  margin: 8px;
+}
+ul.nav a {
+  display: block;
+  padding: 0 28px;
+  color: white;
+  text-decoration: none;
+}
+ul.nav a:hover,
+ul.nav li.current a {
+  background: #086754;
+}
+
+.title {
+  width: 100%;
+  background: #333; /* you can change the backgorund color here. */
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  margin-bottom: 10px;
+}
+
+.title-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
 }
