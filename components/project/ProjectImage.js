@@ -7,7 +7,7 @@ const ProjectImage = ({ projectName, href, position, show, index }) => {
     >
       <Image
         priority={true}
-        src={`/static/images/${projectName}-screenshot-${index}.jpg`}
+        src={`/static/images/${projectName}-screenshot-${index}.png`}
         alt={`${projectName} Screenshot ${index}`}
         width="1100"
         height="560"
@@ -24,7 +24,7 @@ const ProjectImage = ({ projectName, href, position, show, index }) => {
     >
       <Image
         priority={true}
-        src={`/static/images/investfundsonline-screenshot-${index}.jpg`}
+        src={`/static/images/investment.jpg`}
         alt={`Screenshot ${index}`}
         width="1100"
         height="620"
