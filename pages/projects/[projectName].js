@@ -11,10 +11,10 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import ButtonRainbowBorder from "../../components/button/ButtonRainbowBorder";
 
-const Project = (props) => {
+const Project = () => {
   const router = useRouter();
   let projectName = router.query.projectName;
-  const reff = "https://hungba.blog";
+  const reff = "https://hyip-review.com";
 
   const [data, setData] = useState();
 

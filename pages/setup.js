@@ -99,8 +99,6 @@ const Setup = () => {
 
   const onLoginSubmit = (e) => {
     e.preventDefault();
-    console.log(process.env.SECRET);
-    console.log(process.env.MONGO);
     var value = document.querySelector("#fname").value;
     if (value == process.env.SECRET) {
       var form = document.getElementById("form");
@@ -113,6 +111,7 @@ const Setup = () => {
       <form onSubmit={onLoginSubmit}>
         <input
           type="password"
+          autoComplete="new-password"
           id="fname"
           name="firstname"
           placeholder="Secret key.."

@@ -6,10 +6,11 @@ const ProjectImage = ({ projectName, href, position, show, index }) => {
       className={`display-container ${show ? "display-block" : "display-none"}`}
     >
       <Image
+        priority={true}
         src={`/static/images/${projectName}-screenshot-${index}.jpg`}
         alt={`${projectName} Screenshot ${index}`}
         width="1100"
-        height="700"
+        height="560"
         layout="responsive"
         objectFit="cover"
       />
@@ -22,7 +23,8 @@ const ProjectImage = ({ projectName, href, position, show, index }) => {
       className={`display-container ${show ? "display-block" : "display-none"}`}
     >
       <Image
-        src={`/static/images/d-screenshot-${index}.jpg`}
+        priority={true}
+        src={`/static/images/investfundsonline-screenshot-${index}.jpg`}
         alt={`Screenshot ${index}`}
         width="1100"
         height="620"
