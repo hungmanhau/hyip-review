@@ -37,7 +37,7 @@ const Project = () => {
       <div className="content">
         <ProjectTitle
           projectName={projectName}
-          // href={data != undefined ? data.referralLink : reff}
+          href={data != undefined ? data.referralLink : reff}
         />
         <ProjectImages
           projectName={projectName}
