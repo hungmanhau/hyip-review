@@ -14,7 +14,7 @@ import ButtonRainbowBorder from "../../components/button/ButtonRainbowBorder";
 const Project = () => {
   const router = useRouter();
   let projectName = router.query.projectName;
-  const reff = "https://hyip-review.com";
+  const reff = "https://blackfort.network/accounts/create/?ref_id=0V4qtORg";
 
   const [data, setData] = useState();
 
@@ -37,7 +37,7 @@ const Project = () => {
       <div className="content">
         <ProjectTitle
           projectName={projectName}
-          href={data != undefined ? data.referralLink : reff}
+          // href={data != undefined ? data.referralLink : reff}
         />
         <ProjectImages
           projectName={projectName}
